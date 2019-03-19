@@ -11,19 +11,22 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/Merdoth/Downloads/hello-next/components/List.js";
+var _jsxFileName = "/Users/Merdoth/Downloads/TodoList/components/List.js";
 
 var deleteStyle = {
-  marginLeft: 15,
+  marginLeft: 55,
   display: "block",
-  borderRadius: 50
+  borderRadius: 50,
+  marginTop: -15,
+  fontSize: "12px",
+  color: "gray"
 };
 
 var List = function List(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 10
     },
     __self: this
   }, props.items.map(function (item, index) {
@@ -31,7 +34,7 @@ var List = function List(props) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 12
       },
       __self: this
     }, item, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -41,7 +44,7 @@ var List = function List(props) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 12
       },
       __self: this
     }, "X"));
@@ -2561,10 +2564,10 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2Fhello-next%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2Fhello-next%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2FTodoList%2Fpages%2Findex.js!./":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2FTodoList%2Fpages%2Findex.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2624,7 +2627,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/Merdoth/Downloads/hello-next/pages/index.js";
+var _jsxFileName = "/Users/Merdoth/Downloads/TodoList/pages/index.js";
 
 
 
@@ -2732,13 +2735,13 @@ function (_Component) {
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2Fhello-next%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2FTodoList%2Fpages%2Findex.js ***!
+  \*****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2Fhello-next%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2Fhello-next%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2FTodoList%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FMerdoth%2FDownloads%2FTodoList%2Fpages%2Findex.js!./");
 
 
 /***/ }),

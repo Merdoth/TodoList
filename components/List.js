@@ -1,7 +1,10 @@
 const deleteStyle = {
-  marginLeft: 15,
+  marginLeft: 55,
   display: "block",
-  borderRadius: 50
+  borderRadius: 50,
+  marginTop: -15,
+  fontSize: "12px",
+  color: "gray"
 }
 const List = props => (
   <ul>
