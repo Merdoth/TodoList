@@ -107,37 +107,47 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/Merdoth/Downloads/TodoList/components/List.js";
 
 var deleteStyle = {
-  marginLeft: 55,
+  marginLeft: 25,
   display: "block",
   borderRadius: 50,
-  marginTop: -15,
+  cursor: "pointer",
   fontSize: "12px",
-  color: "gray"
+  color: "pink"
+};
+var itemWrapper = {
+  display: "flex"
 };
 
 var List = function List(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }, props.items.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: index,
+      style: itemWrapper,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 15
       },
       __self: this
-    }, item, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, item), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       style: deleteStyle,
       onClick: function onClick() {
         return props.deleteItem(index, item);
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 15
       },
       __self: this
     }, "X"));
