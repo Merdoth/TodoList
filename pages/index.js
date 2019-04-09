@@ -1,11 +1,23 @@
 import React, { Component } from 'react'
 import List from '../components/List'
+import fetch from 'isomorphic-unfetch'
+
 
 export default class App extends Component {
-    state = {
-        term: '',
-        items: []
-    };
+
+    constructor (props) {
+        super()
+        this.state = {
+            term: '',
+            items:[...props.items],
+            list: [],
+        };
+    }
+    static async getInitialProps () {
+        const res = await fetch('http://localhost:8000/api/todos')
+        const {todos} = await res.json()
+        return { items: todos }
+      }
     onChange = (event) => {
         this.setState({ term: event.target.value });
     }
